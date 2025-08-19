@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-yellow-50 text-yellow-900 font-sans;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow p-6 transition-transform duration-200 hover:scale-[1.02] hover:shadow-lg;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-lg border border-yellow-300 transition duration-200;
+}
+
+.btn-primary {
+  @apply bg-yellow-500 text-white hover:bg-yellow-600 border-yellow-600;
+}
+
+.input {
+  @apply border border-yellow-300 rounded-lg px-3 py-2 w-full focus:ring-2 focus:ring-yellow-500 outline-none;
+}
+
+.table {
+  @apply w-full text-sm text-yellow-900 border border-yellow-200;
+}
+
+.th, .td {
+  @apply px-3 py-2 border-b border-yellow-200;
+}
+
+.tr-hover {
+  @apply hover:bg-yellow-100 transition-colors duration-150;
+}
